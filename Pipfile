@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+langchain = "*"
+python-dotenv = "*"
+unstructured = "*"
+pgvector = "*"
+langchain-openai = "*"
+tiktoken = "*"
+psycopg2-binary = "*"
+langchain-text-splitters = "*"
+markdown = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
